@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Samp from './Samp';
+// import Samp from './Samp';
+// import Events from './Events';
 import reportWebVitals from './reportWebVitals';
+import Contxt1 from './Contxt1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Samp data={false} />
+    <Contxt1 />
   </React.StrictMode>
 );
 
